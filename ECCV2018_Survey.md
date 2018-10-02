@@ -1,3 +1,7 @@
+# ECCV 2018 Survey
+
+A survey for [ECCV 2018](https://eccv2018.org/). Title, description and Links (PDF/Project/Video) are listed as follows.
+
 * [Viewpoint Estimation - Insights & Model](http://openaccess.thecvf.com/content_ECCV_2018/html/Gilad_Divon_Viewpoint_Estimation_-_ECCV_2018_paper.html)
     * 対象物体がどの角度から撮影されたものかを推定する研究．Engineering的に，何をするのが精度向上に寄与するのかを検討してまとめている感じの論文．書き方がシンプルでわかりやすいし，後続の研究には役立ちそう．
 
