@@ -117,10 +117,9 @@ A survey for [ECCV 2018](https://eccv2018.org/). Title, description and Links (P
     * 画像内または画像のセット内で類似の意味概念を定位することができる方法であるディープ・フィーチャ・ファクタライゼーション（DFF）を提案した。
 
 * [SOD-MTGAN: Small Object Detection via Multi-Task Generative Adversarial Network](http://openaccess.thecvf.com/content_ECCV_2018/html/Yongqiang_Zhang_SOD-MTGAN_Small_Object_ECCV_2018_paper.html)
-    *   
-小型物体の検出問題に対処するために、エンドツーエンドのマルチタスクGAN（MTGAN）を提案   
-ぼやけた小さな画像から鮮明な超解像度画像の復元の有用性を示す   
-小さな物体の検出精度が最先端
+    * 小型物体の検出問題に対処するために、エンドツーエンドのマルチタスクGAN（MTGAN）を提案   
+    ぼやけた小さな画像から鮮明な超解像度画像の復元の有用性を示す   
+    小さな物体の検出精度が最先端
 
 * [Human Motion Analysis with Deep Metric Learning](http://openaccess.thecvf.com/content_ECCV_2018/html/HUSEYIN_COSKUN_Human_Motion_Analysis_ECCV_2018_paper.html)
     * 2つのモーションシーケンスの類似度を測定するための新しいロス関数とネットワークアーキテクチャを提案する。2つのデータセットで実験を行い従来の動作測定基準より大幅な改善
@@ -148,8 +147,8 @@ A survey for [ECCV 2018](https://eccv2018.org/). Title, description and Links (P
 
 * [DeepVS: A Deep Learning Based Video Saliency Prediction Approach](http://openaccess.thecvf.com/content_ECCV_2018/html/Lai_Jiang_DeepVS_A_Deep_ECCV_2018_paper.html)
     * DeepVSと呼ばれる新しい深層学習に基づく映像顕著性予測法を提案   
-saliency-structured ConvLSTMを提案   
-ビデオのフレーム間の顕著性をモデル化
+    saliency-structured ConvLSTMを提案   
+    ビデオのフレーム間の顕著性をモデル化
 
 * [Generalizing A Person Retrieval Model Hetero- and Homogeneously](http://openaccess.thecvf.com/content_ECCV_2018/html/Zhun_Zhong_Generalizing_A_Person_ECCV_2018_paper.html)
     * 人の再識別（re-ID）のための新しい教師なしドメイン適応方法，Het-Homogeneous Learning（HHL）を提案した。
@@ -168,14 +167,14 @@ saliency-structured ConvLSTMを提案
 
 * [Towards End-to-End License Plate Detection and Recognition: A Large Dataset and Baseline](http://openaccess.thecvf.com/content_ECCV_2018/html/Zhenbo_Xu_Towards_End-to-End_License_ECCV_2018_paper.html)
     * ナンバープレートデータセットCCPDの紹介   
-CCPDを用いてバウンディングボックスを予測，高速かつ正確にLP番号を同時認識できる新規ネットワークモデルを提案(RPnet)   
-精度・速度ともに現在の物体検出よりも優れている   
-61fps以上で98.5%の精度でナンバープレートの番号を認識
+    CCPDを用いてバウンディングボックスを予測，高速かつ正確にLP番号を同時認識できる新規ネットワークモデルを提案(RPnet)   
+    精度・速度ともに現在の物体検出よりも優れている   
+    61fps以上で98.5%の精度でナンバープレートの番号を認識
 
 * [Self-supervised Tracking by Colorization](http://openaccess.thecvf.com/content_ECCV_2018/html/Carl_Vondrick_Self-supervised_Tracking_by_ECCV_2018_paper.html)
     * グレースケール動画のカラー化する学習モデル作成  
-グランドトゥルースラベルなしの学習だが，最新のオプティカルフローによる手法よりも優れた性能発揮  
-ビデオカラー化により自己監視ビジュアルトラッキングが改善されることを示唆
+    グランドトゥルースラベルなしの学習だが，最新のオプティカルフローによる手法よりも優れた性能発揮  
+    ビデオカラー化により自己監視ビジュアルトラッキングが改善されることを示唆
 
 * [Pose Proposal Networks](http://openaccess.thecvf.com/content_ECCV_2018/html/Sekii_Pose_Proposal_Networks_ECCV_2018_paper.html)
     * 自然かつ時間的な一貫性を用いて、参照フレームから色をコピーすることによってグレースケールの動画をカラーにする学習モデルを作成した．
@@ -191,19 +190,17 @@ CCPDを用いてバウンディングボックスを予測，高速かつ正確�
 
 * [Learning to Learn Parameterized Image Operators](http://openaccess.thecvf.com/content_ECCV_2018/html/Qingnan_Fan_Learning_to_Learn_ECCV_2018_paper.html)
     * 画像オペレータの近似・加速・改善のために，ディープネットワークが使用されていて，このオペレータはよい結果にするために微調整が必要なパラメータを多数持つ．   
-これを改善するための，ネットワークの重みを自動的に調整する新しいデカップル学習アルゴリズムの提案．   
-
+    これを改善するための，ネットワークの重みを自動的に調整する新しいデカップル学習アルゴリズムの提案． 
 
 * [HBE: Hand Branch Ensemble network for real time 3D hand pose estimation](http://openaccess.thecvf.com/content_ECCV_2018/html/Yidan_Zhou_HBE_Hand_Branch_ECCV_2018_paper.html)
     * 単一の深度画像から手関節の3D座標を推定するときに，精度とリアルタイム性の両方を考慮した，ハンドブランチアンサンブルネットワーク(HBE)という3ブランチの畳み込みニューラルネットワークの設計．   
-3つのブランチはそれぞれ，親指，人差し指，その他の指の3つの部分に対応している．   
-実験結果では，最先端の手法よりもトレーニングデータの量が少なく，トレーニングの時間が短く，フレームレートが速い状態で同等かそれ以上の成果を達成した．
+    3つのブランチはそれぞれ，親指，人差し指，その他の指の3つの部分に対応している．   
+    実験結果では，最先端の手法よりもトレーニングデータの量が少なく，トレーニングの時間が短く，フレームレートが速い状態で同等かそれ以上の成果を達成した．
 
 * [Generative Semantic Manipulation with Mask-Contrasting GAN](http://openaccess.thecvf.com/content_ECCV_2018/html/Liang_Generative_Semantic_Manipulation_ECCV_2018_paper.html)
     * 猫→犬のような，独自の形状を維持しながら，オブジェクトの意味的意味を変更するための，コントラスト-GANの提案．  
-合成されたサンプルをターゲットデータの近くに直接作成せず、ターゲットとの距離比較を最適化．  
-他の条件付きGANに比較してパフォーマンス向上を示した．  
-
+    合成されたサンプルをターゲットデータの近くに直接作成せず、ターゲットとの距離比較を最適化．  
+    他の条件付きGANに比較してパフォーマンス向上を示した．
 
 * [Learning to Fuse Proposals from Multiple Scanline Optimizations in Semi-Global Matching](http://openaccess.thecvf.com/content_ECCV_2018/html/Johannes_Schoenberger_Learning_to_Fuse_ECCV_2018_paper.html)
     * Semi-Global Matching(SGM)の集約方式を，スキャンラインで最適化して推定された視差を融合する学習ベースの方法に着かえることを提案．ここで，提案されるSGM-Forestアルゴリズムはピクセル毎の分類を用いて問題を解決．SGM-ForestはETH3D stereo benchmarkで1位にランクされている．
@@ -216,33 +213,30 @@ CCPDを用いてバウンディングボックスを予測，高速かつ正確�
 
 * [SkipNet: Learning Dynamic Execution in Residual Networks](http://openaccess.thecvf.com/content_ECCV_2018/html/Xin_Wang_SkipNet_Learning_Dynamic_ECCV_2018_paper.html)
     * 最大精度を出すには，より畳み込み層の多いネットワークが必要であるが，多くの入力では浅いネットワークで十分．   
-本論文では，入力毎にネットワークの畳み込みレイヤーをスキップすることを学習することで，計算量の削減を行うSkipNetsの提案   
-精度を維持しながら計算量を30～90%削減成功   
-
+    本論文では，入力毎にネットワークの畳み込みレイヤーをスキップすることを学習することで，計算量の削減を行うSkipNetsの提案   
+    精度を維持しながら計算量を30～90%削減成功 
 
 * [Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes](http://openaccess.thecvf.com/content_ECCV_2018/html/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.html)
-    * 自然画像におけるテキストの検出と認識をend-to-endで学習できるNural NetworkモデルであるMask TextSpotterを提案．セマンティックセグメンテーションにより，正確なテキスト検出と認識を可能に．ICDAR2013，ICDAR2015，Total-Textでの実験によりstate-of-the-art．  
-
+    * 自然画像におけるテキストの検出と認識をend-to-endで学習できるNural NetworkモデルであるMask TextSpotterを提案．セマンティックセグメンテーションにより，正確なテキスト検出と認識を可能に．ICDAR2013，ICDAR2015，Total-Textでの実験によりstate-of-the-art．
 
 * [Deep Adaptive Attention for Joint Facial Action Unit Detection and Face Alignment](http://openaccess.thecvf.com/content_ECCV_2018/html/Zhiwen_Shao_Deep_Adaptive_Attention_ECCV_2018_paper.html)
     * 顔面アクションユニット（AU）の検出と顔面アライメントは2つの相関の高いタスク  
-関節AU検出と顔面アライメントのためのエンドツーエンドの深い学習フレームワークを開発  
-顔分析やマルチタスク問題にも適応を期待
+    関節AU検出と顔面アライメントのためのエンドツーエンドの深い学習フレームワークを開発  
+    顔分析やマルチタスク問題にも適応を期待
 
 * [Semantic Scene Understanding under Dense Fog with Synthetic and Real Data](http://openaccess.thecvf.com/content_ECCV_2018/html/Christos_Sakaridis_Semantic_Scene_Understanding_ECCV_2018_paper.html)
     * 合成霧データと実霧データを用いて、軽合成霧から濃霧実霧へのセマンティックセグメンテーションモデルを多段階に徐々に適応させるカリキュラムモデル適応（CMAda）という新しい手法を提案した。
 
 * [RIDI: Robust IMU Double Integration](http://openaccess.thecvf.com/content_ECCV_2018/html/Hang_Yan_RIDI_Robust_IMU_ECCV_2018_paper.html)
     * スマホIMUだけで自然な人間の動きの軌跡を推定する慣性航法の新しいデータ駆動型アプローチを提案  
-線形加速度と角速度の履歴から速度ベクトルを回帰し、線形加速度の低周波バイアスを補正し、位置を推定するために2回積分  
-エネルギー効率が良く、完全な視覚慣性航法システムと同等の精度を実現
+    線形加速度と角速度の履歴から速度ベクトルを回帰し、線形加速度の低周波バイアスを補正し、位置を推定するために2回積分  
+    エネルギー効率が良く、完全な視覚慣性航法システムと同等の精度を実現
 
 * [Weakly-supervised Video Summarization using Variational Encoder-Decoder and Web Prior](http://openaccess.thecvf.com/content_ECCV_2018/html/Sijia_Cai_Weakly-supervised_Video_Summarization_ECCV_2018_paper.html)
     * 潜在的セマンティック・モデリングのためにウェブ・ビデオを活用し、原則的な方法でビデオ要約のあいまい性を減らすために、VESDと呼ばれる生成的要約フレームワークを導入
 
 * [Transferring Common-Sense Knowledge for Object Detection](http://openaccess.thecvf.com/content_ECCV_2018/html/Krishna_Kumar_Singh_Transferring_Common-Sense_Knowledge_ECCV_2018_paper.html)
-    * ソースからターゲットカテゴリへのコモンセンス知識（DOCK）を転送することにより、オブジェクトを検出するためのスケーラブルなアプローチを提示．要はスプーンがメタリックのような常識を教えると検出結果が良くなるみたいな研究  
-
+    * ソースからターゲットカテゴリへのコモンセンス知識（DOCK）を転送することにより、オブジェクトを検出するためのスケーラブルなアプローチを提示．要はスプーンがメタリックのような常識を教えると検出結果が良くなるみたいな研究
 
 * [Person Search in Videos with One Portrait Through Visual and Temporal Links](http://openaccess.thecvf.com/content_ECCV_2018/html/Qingqiu_Huang_Person_Search_in_ECCV_2018_paper.html)
     * 異なる環境で撮影されたポートレート画像を元に動画中から人物を検索するタスクを提案し，このタスクにおいてアイデンティティ伝播のための視覚的、時間的リンクを組み込んだ新たなフレームワークとデータベースを構築した論文．
@@ -273,14 +267,14 @@ CCPDを用いてバウンディングボックスを予測，高速かつ正確�
 
 * [Focus, Segment and Erase: An Efficient Network for Multi-Label Brain Tumor Segmentation](http://openaccess.thecvf.com/content_ECCV_2018/html/Xuan_Chen_Focus_Segment_and_ECCV_2018_paper.html)
     * 多ラベル脳腫瘍のセグメンテーションでは、クラスの不均衡およびクラス間干渉が一般的であり、挑戦的な問題．本稿では、これに対処するための新しいエンドツーエンドの訓練可能なネットワークFSENetを提案．  
-いモデルのアンサンブルや複雑な後処理技術に頼ることなく、BraTS 2015リーダーボード上で3位シングルモデルパフォーマンスを達成．
+    いモデルのアンサンブルや複雑な後処理技術に頼ることなく、BraTS 2015リーダーボード上で3位シングルモデルパフォーマンスを達成．
 
 * [Maximum Margin Metric Learning Over Discriminative Nullspace for Person Re-identification](http://openaccess.thecvf.com/content_ECCV_2018/html/T_M_Feroz_Ali_Maximum_Margin_Metric_ECCV_2018_paper.html)
     * 人の再識別に対して標本数が少ない問題に効率的に対処し，既存の最先端技術に比べて大幅なパフォーマンス向上をもたらす，Nullspace Kernel Maximum Margin Metric Learning(NK3ML)という新しいメタ学習のフレームワークの提案．人の再同定の4つのベンチマークのデータセットによる実験により，提案アルゴリズムが既存のアルゴリズムより優れている結果．
 
 * [Efficient Relative Attribute Learning using Graph Neural Networks](http://openaccess.thecvf.com/content_ECCV_2018/html/Zihang_Meng_Efficient_Relative_Attribute_ECCV_2018_paper.html)
     * 顔が若い⇔老けのような相対属性学習と属性予測の両方を実行できる単純なフレームワークを提示  
-パラメータの数がわずかに増加するだけで、一度に1つずつまたはすべてを相対属性を学習するために使用可能
+    パラメータの数がわずかに増加するだけで、一度に1つずつまたはすべてを相対属性を学習するために使用可能
 
 * [Object Level Visual Reasoning in Videos](http://openaccess.thecvf.com/content_ECCV_2018/html/Fabien_Baradel_Object_Level_Visual_ECCV_2018_paper.html)
     * 動画内の意味的な時空間的相互作用について推論し，学習売るモデルを提案．最先端の物体検出ネットワークの統合により．物体レベルでこの推論ができる．これにより，このモデルはセマンティックな物体のインタラクションの詳細な空間的相互作用を学習できる．3つの標準なデータセット(Twenty-BN Something-Something,VLOG,EPIC Kitchens)で評価し，すべてでstate-of-the-art
@@ -365,7 +359,7 @@ CCPDを用いてバウンディングボックスを予測，高速かつ正確�
 
 * [Deep Discriminative Model for Video Classification](http://openaccess.thecvf.com/content_ECCV_2018/html/Mohammad_Tavakolian_Deep_Discriminative_Model_ECCV_2018_paper.html)
     * 適切なパラメータを初期化する学習の後, クラス識別のためにfinetuningしてAutoencoderを作成し, video-based scene classificationを作成した.  
-隣接するフレーム間の相関を避けるために,映像シーケンスの時空間的変化を捉え,Sparse Cubic Symmetrical Patternを用いてsparseに表現した.
+    隣接するフレーム間の相関を避けるために,映像シーケンスの時空間的変化を捉え,Sparse Cubic Symmetrical Patternを用いてsparseに表現した.
 
 * [The Mutex Watershed: Efficient, Parameter-Free Image Partitioning](http://openaccess.thecvf.com/content_ECCV_2018/html/Steffen_Wolf_The_Mutex_Watershed_ECCV_2018_paper.html)
     * （セマンティクではない）セグメンテーションの手法を提案。細胞壁での分割の結果を示している。
@@ -546,8 +540,7 @@ CCPDを用いてバウンディングボックスを予測，高速かつ正確�
 
 * [SAN: Learning Relationship between Convolutional Features for Multi-Scale Object Detection](http://openaccess.thecvf.com/content_ECCV_2018/html/Kim_SAN_Learning_Relationship_ECCV_2018_paper.html)
     * CNNベースの物体検出法は，スケールに応じてアクティブなチャンネルが完全に異なる．これは，分類器にとって学習を難しくしている．そこで著者らは，Scale Aware Network（SAN) を提案した．これは，異なるスケールにおいても不変な部分空間の畳み込み特徴をマップする．これによりCNNベールの検出手法はスケールの変化によりロバストになると主張．空間情報を用いないでチャンネル間の関係を考慮した，ユニークな学習手法も構築した．  
-提案手法をVOC PASCAl とMS COCOデータセットを用いて評価した.  
-
+    提案手法をVOC PASCAl とMS COCOデータセットを用いて評価した.
 
 * [A Systematic DNN Weight Pruning Framework using Alternating Direction Method of Multipliers](http://openaccess.thecvf.com/content_ECCV_2018/html/Tianyun_Zhang_A_Systematic_DNN_ECCV_2018_paper.html)
     * DNNのシステマティックなweight pruningフレームワーク (ADMM) を提案．DNNのweight pruning問題を非凸最適化問題として定式化した後，ADMMを適応．MNISTでLeNet-5を学習したところ，accuracyが悪くならずに71.2x weight reductionを達成．
@@ -684,8 +677,7 @@ CCPDを用いてバウンディングボックスを予測，高速かつ正確�
 
 * [Robust Optical Flow Estimation in Rainy Scenes](http://openaccess.thecvf.com/content_ECCV_2018/html/Ruoteng_Li_Robust_Optical_Flow_ECCV_2018_paper.html)
     * 雨天時におけるオプティカルフロー推定手法を提案．  
-Residue channel (single channel) とcolored-residue imageという雨に影響を受けない２つの画像を求めることによりオプティカルフローを求めるとのこと．  
-
+    Residue channel (single channel) とcolored-residue imageという雨に影響を受けない２つの画像を求めることによりオプティカルフローを求めるとのこと．
 
 * [Image Generation from Sketch Constraint Using Contextual GAN](http://openaccess.thecvf.com/content_ECCV_2018/html/Yongyi_Lu_Image_Generation_from_ECCV_2018_paper.html)
     * 既存のエッジ画像からの画像生成手法は，入力されたエッジ画像の影響を受け過ぎるため，入力が悪い（途切れているなど）とリアルな画像が生成できないという問題がある．この研究では，きれいなエッジ画像と実画像の同時分布を学習することにより，入力が多少悪くても比較的リアルな画像が出力できるようにした．
@@ -842,7 +834,7 @@ Residue channel (single channel) とcolored-residue imageという雨に影響�
 
 * [Transferring GANs: generating images from limited data](http://openaccess.thecvf.com/content_ECCV_2018/html/yaxing_wang_Transferring_GANs_generating_ECCV_2018_paper.html)
     * 0.5 GANにおける転移学習の有用性の研究．pretrainしたモデルを用いることにより，収束が早まることを確認．conditional GANにおいても，conditionalでないGANの学習済み重みを用いても収束が早まることを確認．また，ソース・ターゲットのデータセット間の関係も調査し，データセットがdenseであること（Celebデータセットのように，データ同士の際が小さいものが集まっている）がdivesityが大きいこと（ImageNetやPlacesのような）よりも重要だと確認．  
-結果の効果が弱いが、pretrained networkの有用性について次に繋がる論文出ると考えられる
+    結果の効果が弱いが、pretrained networkの有用性について次に繋がる論文出ると考えられる
 
 * [To learn image super-resolution, use a GAN to learn how to do image degradation first](http://openaccess.thecvf.com/content_ECCV_2018/html/Adrian_Bulat_To_learn_image_ECCV_2018_paper.html)
     * 超解像において，劣化過程をもデータ駆動で学習させるために，高解像と低解像２つのネットワークを持つGANを提案．既存研究に比べ実際の劣化した画像をよく超解像することを可能に。敵対的損失は高解像度の画像が生成されたものかを識別するタスクと，低解像度の画像が生成されたものかを識別するタスクの２つの和で与える
@@ -866,16 +858,15 @@ Residue channel (single channel) とcolored-residue imageという雨に影響�
     * Multi-Object Trackingのタスクを，Single Object Trackingの結果を注意機構を持つネットワークで統合することにより解く手法の提案．
 
 * [MaskConnect: Connectivity Learning by Gradient Descent](http://openaccess.thecvf.com/content_ECCV_2018/html/Karim_Ahmed_MaskConnect_Connectivity_Learning_ECCV_2018_paper.html)
-    * ニューラルネットの構造を学習によって取得させる．ブロック単位の連結を学習する．面白い点は，ブロック単位の連結を表現する重みを用意し，あるタスクに最適な構造を，タスクそのものの学習に伴って最適化するところ．  
-
+    * ニューラルネットの構造を学習によって取得させる．ブロック単位の連結を学習する．面白い点は，ブロック単位の連結を表現する重みを用意し，あるタスクに最適な構造を，タスクそのものの学習に伴って最適化するところ．
 
 * [FloorNet: A Unified Framework for Floorplan Reconstruction from 3D Scans](http://openaccess.thecvf.com/content_ECCV_2018/html/Chen_Liu_FloorNet_A_Unified_ECCV_2018_paper.html)
     * 0.5 point cloud，上からの画像，部屋の画像から部屋の間取りを再構成．様々な情報を複雑なネットワークで統合し，間取りを出力．基本手法に比べて大きな精度向上  
-システムアーキテクチャ、アプリケーションとして素晴らしい。ただ、デファクトを作るかというと怪しい
+    システムアーキテクチャ、アプリケーションとして素晴らしい。ただ、デファクトを作るかというと怪しい
 
 * [Image Manipulation with Perceptual Discriminators](http://openaccess.thecvf.com/content_ECCV_2018/html/Diana_Sungatullina_Image_Manipulation_with_ECCV_2018_paper.html)
     * 0.5 新しいDiscriminatorとして，VGGなど学習済みのモデルの中間層からも真偽を判断するperceptual discriminatorの提案．  
-発想は面白いし、今後派生した研究が出そう
+    発想は面白いし、今後派生した研究が出そう
 
 * [Transductive Centroid Projection for Semi-supervised Large-scale Recognition](http://openaccess.thecvf.com/content_ECCV_2018/html/Yu_Liu_Transductive_Centroid_Projection_ECCV_2018_paper.html)
     * クラスタリングを用いるNNの半教師あり学習において問題になっていた計算量を削減するため，クラスタリングに相当するNNのモジュールの提案
@@ -885,7 +876,7 @@ Residue channel (single channel) とcolored-residue imageという雨に影響�
 
 * [Self-supervised Knowledge Distillation Using Singular Value Decomposition](http://openaccess.thecvf.com/content_ECCV_2018/html/SEUNG_HYUN_LEE_Self-supervised_Knowledge_Distillation_ECCV_2018_paper.html)
     * 0.5 蒸留の際，教師モデルと生徒モデルの近さを，各モデルの重みの特異値で測る。  
-効果がいまいち
+    効果がいまいち
 
 * [Snap Angle Prediction for 360$^{\circ}$ Panoramas](http://openaccess.thecvf.com/content_ECCV_2018/html/Bo_Xiong_Snap_Angle_Prediction_ECCV_2018_paper.html)
     * 360度カメラの画像から、任意の画角の画像を予測するモデルの提案．360度画像と特定の画学との関係を得るために，強化学習を用いる．ベースラインよりも5倍早い計算時間を実現．
@@ -940,36 +931,34 @@ Residue channel (single channel) とcolored-residue imageという雨に影響�
 
 * [Learning Rigidity in Dynamic Scenes with a Moving Camera for 3D Motion Field Estimation](http://openaccess.thecvf.com/content_ECCV_2018/html/Zhaoyang_Lv_Learning_Rigidity_in_ECCV_2018_paper.html)
     * この論文で主に提案するもの。  
-- 動くカメラを用いた動的シーンに対する学習ベースの剛性および姿勢推定アルゴリズムの提案  
-- 剛性、ポーズ、および既存の2Dオプティカルフローからの推論に基づいて構築された、RGBD 3Dモーション領域推定フレームワーク。  
-- 新しい半合成ダイナミックシーンデータとその作成ツール：REal 3D From REconstruction with Synthetic Humans (REFRESH).
+    \- 動くカメラを用いた動的シーンに対する学習ベースの剛性および姿勢推定アルゴリズムの提案  
+    \- 剛性、ポーズ、および既存の2Dオプティカルフローからの推論に基づいて構築された、RGBD 3Dモーション領域推定フレームワーク。  
+    \- 新しい半合成ダイナミックシーンデータとその作成ツール：REal 3D From REconstruction with Synthetic Humans (REFRESH).
 
 * [Learning Visual Question Answering by Bootstrapping Hard Attention](http://openaccess.thecvf.com/content_ECCV_2018/html/Mateusz_Malinowski_Learning_Visual_Question_ECCV_2018_paper.html)
     * 特徴ベクトルの大きさに基づいてそのサブセットを選択するという、HardAttentionのための新しいアプローチを提案する。提案手法は、VQAデータ・セットで、SoftAttentionの結果を上回る。さらにこの手法は、ソフトアテンションに比べて、計算効率上の利点がある。
 
 * [Image Reassembly Combining Deep Learning and Shortest Path Problem](http://openaccess.thecvf.com/content_ECCV_2018/html/Marie-Morgane_Paumard_Image_Reassembly_Combining_ECCV_2018_paper.html)
-    * - 正方形切り取り断片の相対位置を予測するためのいくつかの深い畳み込みニューラルネットワークアーキテクチャを提案  
-- パズルの異なるケースに対応する再アセンブリ問題を実装するいくつかのグラフ構築アルゴリズムを提案  
-- ImageNetと the Metropolitan Museum of Art (MET)の14,000枚の画像からなる新しいデータセットを作成
+    * \- 正方形切り取り断片の相対位置を予測するためのいくつかの深い畳み込みニューラルネットワークアーキテクチャを提案  
+    \- パズルの異なるケースに対応する再アセンブリ問題を実装するいくつかのグラフ構築アルゴリズムを提案  
+    \- ImageNetと the Metropolitan Museum of Art (MET)の14,000枚の画像からなる新しいデータセットを作成
 
 * [RESOUND: Towards Action Recognition without Representation Bias](http://openaccess.thecvf.com/content_ECCV_2018/html/Yingwei_Li_RESOUND_Towards_Action_ECCV_2018_paper.html)
     * 較正されたデータセットと表現バイアスの概念、およびデータセットのrepresentation biasを客観的に定量化するRESOUNDアルゴリズムを提案している。提案手法を用いて、既存のデータセットをサンプリングすることによって新しいデータセット(the proposed Diving48 dataset)を構築する。特に行動認識タスクにおいてのデータセットバイアスを軽減することを目的としている。
 
 * [Key-Word-Aware Network for Referring Expression Image Segmentation](http://openaccess.thecvf.com/content_ECCV_2018/html/Hengcan_Shi_Key-Word-Aware_Network_for_ECCV_2018_paper.html)
     * Referring expression image segmentationのためのキーワード認識ネットワークとキーワード認識型ビジュアルコンテキストモデルを含むネットワークを提案する。各画像領域ごとにキーワードを抽出し、自然言語クエリに基づいて複数の画像領域の中からキーワード認識型視覚コンテキストをモデル化するkey-word-aware network (KWAN)を提案する。  
-  
-- 内部でCNNとRNNを用いて、画像領域とキーワードの特徴をエンコードする。  
-- それらに基づいて、アテンションモデルが各画像領域のキーワードを見つける  
-- 抽出したvisual features, key-word-aware visual context features、key word featuresを元に各画像領域を分類する。  
-  
-ReferItGame and Google-Ref datasetsにおいて、既存手法と比べてachieves the best IoU and precision
+    \- 内部でCNNとRNNを用いて、画像領域とキーワードの特徴をエンコードする。  
+    \- それらに基づいて、アテンションモデルが各画像領域のキーワードを見つける  
+    \- 抽出したvisual features, key-word-aware visual context features、key word featuresを元に各画像領域を分類する。  
+    ReferItGame and Google-Ref datasetsにおいて、既存手法と比べてachieves the best IoU and precision
 
 * [Mutual Learning to Adapt for Joint Human Parsing and Pose Estimation](http://openaccess.thecvf.com/content_ECCV_2018/html/Xuecheng_Nie_Mutual_Learning_to_ECCV_2018_paper.html)
     * 本論文では、human parsingと姿勢推定のための Mutual Learning to Adapt model (MuLA)を提案する。MuLAは、既存の事後処理またはマルチタスク学習ベースの方法とは異なり、パラレルタスクのguidance informationを再利用してモデルパラメータを予測する。さらに、畳み込みニューラルネットワークとエンドツーエンドで訓練可能なものだけで構成されているのが特徴。そしてPASCAL-Person-Partデータセットで既存手法を上回る結果。
 
 * [Simple Baselines for Human Pose Estimation and Tracking](http://openaccess.thecvf.com/content_ECCV_2018/html/Bin_Xiao_Simple_Baselines_for_ECCV_2018_paper.html)
     * Human Pose EstimationとTrackingのためのシンプルなベースラインを提案。姿勢推定はResNetに基づいて作成され、低解像度および低解像度のフィーチャマップからヒートマップを推定する最も簡単な方法を使用する。Trackingは、ICCV’17 PoseTrack Challengeの勝者と同じ、greedy matching methodを使用している。  
-今後ベースラインとして、多く使用されていく予感。
+    今後ベースラインとして、多く使用されていく予感。
 
 * [Pose Partition Networks for Multi-Person Pose Estimation](http://openaccess.thecvf.com/content_ECCV_2018/html/Xuecheng_Nie_Pose_Partition_Networks_ECCV_2018_paper.html)
     * 多人数のPose推定のためのPose Partition Network (PPN)を提案。提案手法は、人物検出と関節分割の候補を回帰手法で得ることを提案している。WAF・extendedPASCAL-Person-Part・MPII Human Pose Multi-Person datasetにおいて、既存手法を上回る結果に。
@@ -984,9 +973,7 @@ ReferItGame and Google-Ref datasetsにおいて、既存手法と比べてachiev
     * 適応的に更新された階層ツリーを通して、トレーニングサンプルを選択するhierarchical triplet loss (HTL)を提案する。画像検索や顔認識の標準トリプレットロスを大幅に上回り、多くのベンチマークで新しい最先端の結果を得ている。
 
 * [Generative Adversarial Network with Spatial Attention for Face Attribute Editing](http://openaccess.thecvf.com/content_ECCV_2018/html/Gang_Zhang_Generative_Adversarial_Network_ECCV_2018_paper.html)
-    *   
-  
-特定指定領域のみを変更するために、空間的アテンションを組み込んだ、GAN framework (referred to as SaGAN)を提案する。Generatorが顔画像を編集するためのattribute manipulation network (AMN)とこの領域内のAMNの交替を制限する属性固有領域を局所化する空間注意ネットワーク（SAN）の2つのネットワークで構成される。
+    * 特定指定領域のみを変更するために、空間的アテンションを組み込んだ、GAN framework (referred to as SaGAN)を提案する。Generatorが顔画像を編集するためのattribute manipulation network (AMN)とこの領域内のAMNの交替を制限する属性固有領域を局所化する空間注意ネットワーク（SAN）の2つのネットワークで構成される。
 
 * [Proxy Clouds for Live RGB-D Stream Processing and Consolidation](http://openaccess.thecvf.com/content_ECCV_2018/html/Adrien_Kaiser_Proxy_Clouds_for_ECCV_2018_paper.html)
     * RGB-Dデータを平面の組み合わせで表現するProxy Cloudという中間表現の提案．RGB-Dセンサから得られるデータは解像度の低さやノイズの多さが問題になるが，Proxy Coludに変換したデータも用いることで様々な実問題で精度向上を目的とする．Proxy Cloudは軽量に計算可能．
@@ -999,7 +986,7 @@ ReferItGame and Google-Ref datasetsにおいて、既存手法と比べてachiev
 
 * [PM-GANs: Discriminative Representation Learning for Action Recognition Using Partial-modalities](http://openaccess.thecvf.com/content_ECCV_2018/html/Lan_Wang_PM-GANs_Discriminative_Representation_ECCV_2018_paper.html)
     * 1  
-RGBと赤外線等複数のモダリティを組み合わせることによって、一般的には予測しやすくなる。しかし、プライバシー等の問題もあり、RGBカメラを設置することは難しい。そこで、部分的にモダリティを利用し、フルモーダル学習を行うことができるPartial-modal Generative Adversarial Networks (PM-GANs)を提案する。この手法は、行動認識のタスクで評価され、最先端の方法を上回ることが報告された。さらにアクション認識のための可視赤外線データセットも公開している。
+    RGBと赤外線等複数のモダリティを組み合わせることによって、一般的には予測しやすくなる。しかし、プライバシー等の問題もあり、RGBカメラを設置することは難しい。そこで、部分的にモダリティを利用し、フルモーダル学習を行うことができるPartial-modal Generative Adversarial Networks (PM-GANs)を提案する。この手法は、行動認識のタスクで評価され、最先端の方法を上回ることが報告された。さらにアクション認識のための可視赤外線データセットも公開している。
 
 * [OmniDepth: Dense Depth Estimation for Indoors Spherical Panoramas.](http://openaccess.thecvf.com/content_ECCV_2018/html/NIKOLAOS_ZIOULIS_OmniDepth_Dense_Depth_ECCV_2018_paper.html)
     * 単一の360o画像からシーンの深度を推定する学習フレームワークを提案。ground truth depthを元に学習することが新規性である。そのために、3Dデータセットを再利用し、レンダリングによって360oデータセットを合成する。ただし、現状では室内ケース、一定の照明、no stitching artifactsである場合に限られる。
@@ -1012,7 +999,7 @@ RGBと赤外線等複数のモダリティを組み合わせることによっ�
 
 * [Transductive Semi-Supervised Deep Learning using Min-Max Features](http://openaccess.thecvf.com/content_ECCV_2018/html/Weiwei_Shi_Transductive_Semi-Supervised_Deep_ECCV_2018_paper.html)
     * 1: Feature pyramindsのためのglobal attentionとlocal reconfigulationを提案。標準的なSSDに組み込み実験を行った。その結果、マルチスケールにおける表現性を高めること  
-に成功しさらに、推定速度を失うことなく、リアルタイムで検出を可能にしている。
+    に成功しさらに、推定速度を失うことなく、リアルタイムで検出を可能にしている。
 
 * [Deep Feature Pyramid Reconfiguration for Object Detection](http://openaccess.thecvf.com/content_ECCV_2018/html/Tao_Kong_Deep_Feature_Pyramid_ECCV_2018_paper.html)
     * DCNNモデルの学習に有効なTSSDL（Transductive Semi-Supervised Deep Learning）法を提案する。この手法では、学習に従来のトランスダクティブ学習を適用する。さらに、外れ値などのサンプルからの影響を防ぐため、ラベルなしサンプルに対して信頼度を導入する。特徴記述子間の距離を最小にするためにMin-Max Feature (MMF) regularizationも提案する。最先端のSSLメソッドと同等画像分類精度を達成している。
@@ -1042,7 +1029,7 @@ RGBと赤外線等複数のモダリティを組み合わせることによっ�
     * グラフで教師なしdomain adaptationを適用したという論文。複数ラベルベースのグラフから確率分布を考えて、ラベル伝播を行うことによってtargetに対してラベルを正確に降ることが出来たという論文
 
 * [Deep Recursive HDRI: Inverse Tone Mapping using Generative Adversarial Networks](http://openaccess.thecvf.com/content_ECCV_2018/html/Siyeong_Lee_Deep_Recursive_HDRI_ECCV_2018_paper.html)
-    * 一枚のLDRI(Low Dynamic Range Images)から，複数の輝度の段階のHDRI(High Dynamic Range Image)を生成する手法を提案．LDRI->HDRIへの変換はinverse tone mapping problemに分類されるタスク．従来手法はCNNを用いて画像を生成していたが，この論文ではconditional GANを用いることでそれを実現することでより精度の高いHDRIを得た．新規性としては, conditional GANのGeneratorは輝度のあげる，さげるに対応したG_plus, G_minusを用い，generatorの出力を入力に入れる再起構造にすることで輝度の段階が異なる画像の生成にもそれに応じて変換ネットワークを追加する必要がなくなったこと，学習の順番として，l1 lossの最小化をしてからGANのadversarial lossを小さくするように学習していく．
+    * 一枚のLDRI(Low Dynamic Range Images)から，複数の輝度の段階のHDRI(High Dynamic Range Image)を生成する手法を提案．LDRI->HDRIへの変換はinverse tone mapping problemに分類されるタスク．従来手法はCNNを用いて画像を生成していたが，この論文ではconditional GANを用いることでそれを実現することでより精度の高いHDRIを得た．新規性としては, conditional GANのGeneratorは輝度のあげる，さげるに対応したG\_plus, G\_minusを用い，generatorの出力を入力に入れる再起構造にすることで輝度の段階が異なる画像の生成にもそれに応じて変換ネットワークを追加する必要がなくなったこと，学習の順番として，l1 lossの最小化をしてからGANのadversarial lossを小さくするように学習していく．
 
 * [Deep Cross-Modal Projection Learning for Image-Text Matching](http://openaccess.thecvf.com/content_ECCV_2018/html/Ying_Zhang_Deep_Cross-Modal_Projection_ECCV_2018_paper.html)
     * 画像とテキストのマッチングをとるタスクに取り組んだ論文。近年では、bi-directional ranking lossを用いた手法が大きな隆盛を見せているが、提案手法では分離可能な特徴量を学習する損失関数として、cross-modal projection matching loss（CMPC）とcross-modal projection matching loss（CMPM）という新しい損失関数を提案した。
@@ -1153,8 +1140,8 @@ RGBと赤外線等複数のモダリティを組み合わせることによっ�
     * image stitchingやパノラマ画像作成の際に、一つの画像に対して一つのアラインメントを取るsingle registrationは、画像中に動く物体があった場合に、どちらかに焦点が当たったり、間を取ってどちらからもずれたりする。本論文では、異なるデプスごとに別々にアラインメントを取るmultiple registrationを提案した。その結果、画像中を移動する物体があった場合でも頑健にパノラマ画像生成が可能になった。
 
 * [Fast Multi-fiber Network for Video Recognition](http://openaccess.thecvf.com/content_ECCV_2018/html/Yunpeng_Chen_Fast_Multi-fiber_Network_ECCV_2018_paper.html)
-    * 3DCNNの計算コストを削減する，学習パラメータが減少するが，精度は維持されるMulti-Fiber-Netoworkを提案．このfiberをN本入れた場合，学習速度がN倍速くなりかつ，精度は同程度．入力Min,中間層Mmid,出力Mout（それぞれチャネル数）とおくと，通常Connection=Min*Mmid+Mmid*Mout. 対して並列に分割すること(提案するMulti-Fiber)でConnection=(Min*Mmid+Mmid*Mout)/Nに削減することができる．また，Fiber間の接続として、multiplexerを導入することを提案．UCF-101, HMDB-51,Kinetics  
-datasetsにおいてRes-Netを用いたベースラインと同程度の精度を出せている．
+    * 3DCNNの計算コストを削減する，学習パラメータが減少するが，精度は維持されるMulti-Fiber-Netoworkを提案．このfiberをN本入れた場合，学習速度がN倍速くなりかつ，精度は同程度．入力Min,中間層Mmid,出力Mout（それぞれチャネル数）とおくと，通常Connection=Min\*Mmid+Mmid\*Mout. 対して並列に分割すること(提案するMulti-Fiber)でConnection=(Min\*Mmid+Mmid\*Mout)/Nに削減することができる．また，Fiber間の接続として、multiplexerを導入することを提案．UCF-101, HMDB-51,Kinetics  
+    datasetsにおいてRes-Netを用いたベースラインと同程度の精度を出せている．
 
 * [TBN: Convolutional Neural Network with Ternary Inputs and Binary Weights](http://openaccess.thecvf.com/content_ECCV_2018/html/Diwen_Wan_TBN_Convolutional_Neural_ECCV_2018_paper.html)
     * CNNを，bianry, Ternaryを用いて既存のCNNのパラメータを近似することで学習の高速化を図る．XOR,And, Bitcount操作を導入することで，最大32倍のメモリ量の削減，40倍の学習速度を実現．VOC datasetを用いて検証．既存のbinary netと比較してmAPが5%程上昇．
@@ -1208,7 +1195,7 @@ datasetsにおいてRes-Netを用いたベースラインと同程度の精度�
     * Image RetrivalのタスクにおいてのMulti task学習で２つのtaskの相関や関係性が薄い際に発生する不機能性に対してのmodulation modelを提案したもの。それぞれのtaskから獲得できるembeddingをCNNの出力層と足し合わせて最終的な答えを出しているモデル。画像から簡単な質問に答えるタスクに対してわずかに既存手法よりも高い精度を算出した。
 
 * [Open-World Stereo Video Matching with Deep RNN](http://openaccess.thecvf.com/content_ECCV_2018/html/Yiran_Zhong_Open-World_Stereo_Video_ECCV_2018_paper.html)
-    * ステレオ動画を入力として，教師なし学習でdepth画像を出力するネットワークOpen Stereo Netの提案．特徴量抽出のFeature net, depth推定のMatch Net, フレーム間の差違を考慮するためのLSTMで構成される．損失関数は，warping errorと正則化項の足し合わせ．warping error は入力の片方の画像(e.g. Input_left)と出力された反対側の視差画像(e.g. disparity_right)の構造の類似度を表す．disparity_rightを平行移動させることで，画像中の構造が類似していればよい．これをSSIMを用いて表現している．MInput_leftとKITTI, Middlebury,Synthia,Frieburg SceneFlowに対して適用．unsupervisedで学習をおこなえるようにしたため，未知に対しても既存手法より精度の高いdepthマップを出力することができている．
+    * ステレオ動画を入力として，教師なし学習でdepth画像を出力するネットワークOpen Stereo Netの提案．特徴量抽出のFeature net, depth推定のMatch Net, フレーム間の差違を考慮するためのLSTMで構成される．損失関数は，warping errorと正則化項の足し合わせ．warping error は入力の片方の画像(e.g. Input\_left)と出力された反対側の視差画像(e.g. disparity\_right)の構造の類似度を表す．disparity\_rightを平行移動させることで，画像中の構造が類似していればよい．これをSSIMを用いて表現している．MInput\_leftとKITTI, Middlebury,Synthia,Frieburg SceneFlowに対して適用．unsupervisedで学習をおこなえるようにしたため，未知に対しても既存手法より精度の高いdepthマップを出力することができている．
 
 * [Deblurring Natural Image Using Super-Gaussian Fields](http://openaccess.thecvf.com/content_ECCV_2018/html/Yuhang_Liu_Deblurring_Natural_Image_ECCV_2018_paper.html)
     * マルコフ確率場が直面しているブラーkernel(BID)をうまく扱えない問題に対して超ガウシアン空間モデルを定義して、BIDをうまくとりあえ使うようにしたもの
@@ -1356,7 +1343,7 @@ datasetsにおいてRes-Netを用いたベースラインと同程度の精度�
 
 * [Action Anticipation with RBF Kernelized Feature Mapping RNN](http://openaccess.thecvf.com/content_ECCV_2018/html/Yuge_Shi_Action_Anticipation_with_ECCV_2018_paper.html)
     * CNNとパラメータ共有を行いパラメータの数を減らしたRNNを用いることでリアルタイムの行動予測を可能にし、時系列モデル内部でRBFカーネルを用いることで精度を上昇させた。  
-行動予測において既存手法と比べ大幅な精度改善を果たしている。
+    行動予測において既存手法と比べ大幅な精度改善を果たしている。
 
 * [Rendering Portraitures from Monocular Camera and Beyond](http://openaccess.thecvf.com/content_ECCV_2018/html/Xiangyu_Xu_Rendering_Portraitures_from_ECCV_2018_paper.html)
     * 1枚の入力画像から ポートレート効果を再現する研究。CNNを用いて相対深度と portrait segmentation maps を1枚の画像から推定する。生成された粗い map を affinity に元づいて refine する方法（SPN）を提案。 それを元に bular の追加と image matting を行う。また、RNNを用いてrenderingのプロセスの高速化に成功。
@@ -1601,11 +1588,10 @@ datasetsにおいてRes-Netを用いたベースラインと同程度の精度�
 
 * [3D Scene Flow from 4D Light Field Gradients](http://openaccess.thecvf.com/content_ECCV_2018/html/Sizhuo_3D_Motion_Sensing_ECCV_2018_paper.html)
     * light fieldセンサーを用いて3D scene flowを計測する技術を提案。  
-提案手法は、深さ検知＋モーション検知に最適化され、将来的なライトフィールドカメラの設計につながると考えている。
+    提案手法は、深さ検知＋モーション検知に最適化され、将来的なライトフィールドカメラの設計につながると考えている。
 
 * [Burst Image Deblurring Using Permutation Invariant Convolutional Neural Networks](http://openaccess.thecvf.com/content_ECCV_2018/html/Miika_Aittala_Burst_Image_Deblurring_ECCV_2018_paper.html)
-    * 任意のサイズ・長さの動画像に含まれた（酷い）ブラーからの画像復元を行う。提案のアーキテクチャはU-Netにより構成され、フレームごとにEncode-Decodeを行い、時系列フレーム間でMaxpoolを行う。フレーム間でエッジやテクスチャをシャープにしていくと同時に、ブラーが少ない領域をつなぎ合わせていくことで（？）より綺麗な画像復元をおこなうことに成功した。  
-
+    * 任意のサイズ・長さの動画像に含まれた（酷い）ブラーからの画像復元を行う。提案のアーキテクチャはU-Netにより構成され、フレームごとにEncode-Decodeを行い、時系列フレーム間でMaxpoolを行う。フレーム間でエッジやテクスチャをシャープにしていくと同時に、ブラーが少ない領域をつなぎ合わせていくことで（？）より綺麗な画像復元をおこなうことに成功した。
 
 * [Direct Sparse Odometry With Rolling Shutter](http://openaccess.thecvf.com/content_ECCV_2018/html/David_Schubert_Direct_Sparse_Odometry_ECCV_2018_paper.html)
     * direct sparse odometory(DSO)にrolling shutterモデルを組み込むことで、visual odometory(VO)の高精度化に成功した。VOでは特徴点ベースでマッチングするindirect methodと画像の輝度変化について対応点を取得するdirect methodに分類される。ローリングシャッターでは画像の行毎に時間差があるため、direct methodの場合はそれを考慮しないとキーフレームで誤差が大きくなる。そのため、ローリングシャッターモデルを組み込むことで既存手法よりも高精度となっている。モデルにはキーフレームの速度推定値を最適化で拡張し、最適化の前に一定の速度を負わせている。
@@ -1662,15 +1648,15 @@ datasetsにおいてRes-Netを用いたベースラインと同程度の精度�
     * マルチビューカメラの設定から、3次元姿勢推定および人体形状推定を同時に実行するDeep Autoencoderを提案。キーポーズおよび人体のボリュームによる誤差関数を同時に最適化することで同タスクを解決した。
 
 * [Highly-Economized Multi-View Binary Compression for Scalable Image Clustering](http://openaccess.thecvf.com/content_ECCV_2018/html/Zheng_Zhang_Highly-Economized_Multi-View_Binary_ECCV_2018_paper.html)
-    * バイナリ圧縮により複数視点画像のクラスタリングを実施するHighly-economized Scalable Image Clustering (HSIC)を提案。バイナリの表現とクラスタリングの同時最適化を実施。l_{21}正則化の拘束により最適化を実行、XOR演算により高速化を実施。
+    * バイナリ圧縮により複数視点画像のクラスタリングを実施するHighly-economized Scalable Image Clustering (HSIC)を提案。バイナリの表現とクラスタリングの同時最適化を実施。l\_{21}正則化の拘束により最適化を実行、XOR演算により高速化を実施。
 
 * [Asynchronous, Photometric Feature Tracking using Events and Frames](http://openaccess.thecvf.com/content_ECCV_2018/html/Daniel_Gehrig_Asynchronous_Photometric_Feature_ECCV_2018_paper.html)
     * 低いレイテンシで画像内の領域を追跡（してSLAM等を）するイベントカメラを提案した。イベントカメラは時間ごとのピクセルの変化を捉えるカメラであり、非同期のイベントからフォトメトリック的な特徴抽出とトラッキングを実施。従来のヒューリスティックな手法とは異なり、直接的にピクセルから推定する手法を最尤推定的に解決。
 
 * [Deterministic Consensus Maximization with Biconvex Programming](http://openaccess.thecvf.com/content_ECCV_2018/html/Zhipeng_Cai_Deterministic_Consensus_Maximization_ECCV_2018_paper.html)
     * Consensus Maximizationにdeterministic optimizationを用いることでロバスト性を向上させた。  
-Consensus Maximizationに代表される手法としてRANSACがあり、その後も改良アルゴリズムが多く提案されてきた。  
-しかし既存手法は、ランダムサンプリングや目的関数の軽減に依存しているため、初期コンセンサスによって局所解に陥ってしまう可能性がある。実際、乱雑環境では悪い結果を返すことがある。一方、本手法では初期コンセンサスを強制的に増加させる決定論的探索を取り入れることで、更新の各反復を両凸関数として定式化することができ、新しい両凸最適化アルゴリズムを使用して効率的に解くことができる。これにより、計算コストを増加させることなくロバスト性を向上させている。
+    Consensus Maximizationに代表される手法としてRANSACがあり、その後も改良アルゴリズムが多く提案されてきた。  
+    しかし既存手法は、ランダムサンプリングや目的関数の軽減に依存しているため、初期コンセンサスによって局所解に陥ってしまう可能性がある。実際、乱雑環境では悪い結果を返すことがある。一方、本手法では初期コンセンサスを強制的に増加させる決定論的探索を取り入れることで、更新の各反復を両凸関数として定式化することができ、新しい両凸最適化アルゴリズムを使用して効率的に解くことができる。これにより、計算コストを増加させることなくロバスト性を向上させている。
 
 * [Occlusion-aware Hand Pose Estimation Using Hierarchical Mixture Density Network](http://openaccess.thecvf.com/content_ECCV_2018/html/Qi_Ye_Occlusion-aware_Hand_Pose_ECCV_2018_paper.html)
     * 手の重なりによって発生したオクルージョン環境でのHand Pose Estimation。従来手法は特徴学習やモデル推定などでオクルージョンが発生した場合でも単一の解を導き出していた。一方提案したhierarchical mixture density networks(HMDN)は目に見える関節とオクルージョンが発生した関節を、それらのユニモーダルとマルチモーダルの特徴によってそれぞれ推定している。提案手法はオクルージョンが発生しないDSでは従来と同等の性能、オクルージョンが発生しているDSではstate-of-the-artな性能を出している。
@@ -1731,14 +1717,14 @@ Consensus Maximizationに代表される手法としてRANSACがあり、その�
 
 * [DeepTAM: Deep Tracking and Mapping](http://openaccess.thecvf.com/content_ECCV_2018/html/Huizhong_Zhou_DeepTAM_Deep_Tracking_ECCV_2018_paper.html)
     * キーフレームベースのカメラトラッキング＋depth推定の提案。  
-トラッキングでは現在のカメラ画像と結合画像との間のポーズ増分を推定する。  
-depth推定では、現在のdepth推定値を中心とするコストを蓄積する。次にCNNでコストとキーフレーム画像とを組み合わせでdepth推定を更新している。
+    トラッキングでは現在のカメラ画像と結合画像との間のポーズ増分を推定する。  
+    depth推定では、現在のdepth推定値を中心とするコストを蓄積する。次にCNNでコストとキーフレーム画像とを組み合わせでdepth推定を更新している。
 
 * [Depth-aware CNN for RGB-D Segmentation](http://openaccess.thecvf.com/content_ECCV_2018/html/Weiyue_Wang_Depth-aware_CNN_for_ECCV_2018_paper.html)
     * RGB-D Semantic Segmentationの新しい手法としてdepth-aware   
-convolutionとdepth-aware average poolingからなるCNNを提案。  
-state-of-the-artと比べ精度や計算コストの点で有利。実装も楽で計算的な  
-複雑さもない。depth画像だけでなく3Dセンサーデータにも応用できる。
+    convolutionとdepth-aware average poolingからなるCNNを提案。  
+    state-of-the-artと比べ精度や計算コストの点で有利。実装も楽で計算的な  
+    複雑さもない。depth画像だけでなく3Dセンサーデータにも応用できる。
 
 * [Object Detection in Video with Spatiotemporal Sampling Networks](http://openaccess.thecvf.com/content_ECCV_2018/html/Gedas_Bertasius_Object_Detection_in_ECCV_2018_paper.html)
     * ビデオ中の物体検出を行うためにデフォメーションを考慮したCNNを考案。時間tのフレームとサポートとしてt+kのフレームから処理を行うことで、ビデオに起きがちなブラー中においても物体検出することができる。ImageNet VIDのデータを用いて検証を行った。
@@ -1771,14 +1757,13 @@ state-of-the-artと比べ精度や計算コストの点で有利。実装も楽�
     * カメラのオートキャリブレーションを行い、3次元再構成を行う問題である。最適化の多項式を解くためにCconsensus maximizationを計算する。
 
 * [Hand Pose Estimation via Latent 2.5D Heatmap Regression](http://openaccess.thecvf.com/content_ECCV_2018/html/Umar_Iqbal_Hand_Pose_Estimation_ECCV_2018_paper.html)
-    * 新規の2.5次元姿勢表現を通して，単眼カメラの画像から3次元姿勢推定のための新しい手法を提案。 また可微分な損失関数を使った潜伏性のある方法によって2.5次元ヒートマップを学習するためのCNNアーキテクチャーを提案した。  
-
+    * 新規の2.5次元姿勢表現を通して，単眼カメラの画像から3次元姿勢推定のための新しい手法を提案。 また可微分な損失関数を使った潜伏性のある方法によって2.5次元ヒートマップを学習するためのCNNアーキテクチャーを提案した。
 
 * [Single-view Hair Reconstruction using Convolutional Network](http://openaccess.thecvf.com/content_ECCV_2018/html/Yi_Zhou_Single-view_Hair_Reconstruction_ECCV_2018_paper.html)
     * DNNベースの手法により3Dヘアジオメトリをリアルタイムに生成。  
-2D画像からヘアマスク推定を行いヘア領域のオリエンテーションを  
-計算。それを入力とすることで様々な入力画像に対し滑らかで密な  
-3Dヘアジオメトリの生成に成功。
+    2D画像からヘアマスク推定を行いヘア領域のオリエンテーションを  
+    計算。それを入力とすることで様々な入力画像に対し滑らかで密な  
+    3Dヘアジオメトリの生成に成功。
 
 * [Super-Identity Convolutional Neural Network for Face Hallucination](http://openaccess.thecvf.com/content_ECCV_2018/html/Kaipeng_Zhang_Super-Identity_Convolutional_Neural_ECCV_2018_paper.html)
     * Face Hallucination法は、 事例学習に基づき単一の低解像度顔画像から高解像度顔画像を生成する手法である。しかしながら，従来のFace　Hallucinationは低解像度から高解像度にする際に顔の個性を大きく無視している。そのため本論文では顔の個性を考慮するためにSuper-Identity Convolutional Neural Network (SICNN)を提案している
@@ -1815,8 +1800,7 @@ state-of-the-artと比べ精度や計算コストの点で有利。実装も楽�
 
 * [Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images](http://openaccess.thecvf.com/content_ECCV_2018/html/Nanyang_Wang_Pixel2Mesh_Generating_3D_ECCV_2018_paper.html)
     * 本論文ではRGB画像から3次元のメッシュ状のモデルを生成するend-to-endのニューラル  
-ネットワークのアーキテクチャーを提案している。GCNで表される3Dジオメトリに知覚画像の特徴を組み込んだ投影レイヤーを設計している。  
-
+    ネットワークのアーキテクチャーを提案している。GCNで表される3Dジオメトリに知覚画像の特徴を組み込んだ投影レイヤーを設計している。
 
 * [End-to-End Incremental Learning](http://openaccess.thecvf.com/content_ECCV_2018/html/Francisco_M._Castro_End-to-End_Incremental_Learning_ECCV_2018_paper.html)
     * 新しいデータと古いクラスのサンプルに対応している教師データを使って徐々に学習するend-to-endのdeep neaural networkに取り組む。CIFAR-100およびImageNetILSVRC 2012）画像分類データセットで提案手法を比較評価し，高いスコアを示したことを確認。
@@ -1829,11 +1813,11 @@ state-of-the-artと比べ精度や計算コストの点で有利。実装も楽�
 
 * [Image Inpainting for Irregular Holes Using Partial Convolutions](http://openaccess.thecvf.com/content_ECCV_2018/html/Guilin_Liu_Image_Inpainting_for_ECCV_2018_paper.html)
     * Image Inpaintingの新手法としてPartial Convを提案。PatchMatchの  
-ようなホールの周辺情報から欠落部分を予測するのでなく、ホールとGTの  
-対応関係をDNNに学習させ画像を再構築する。  
-25000近いサンプルでテストを行い、既存手法と比べより自然な補間に  
-成功し、ホールの形状や大きさに対しロバストである。  
-ただし、他手法と同様にスパースな画像は難しい。
+    ようなホールの周辺情報から欠落部分を予測するのでなく、ホールとGTの  
+    対応関係をDNNに学習させ画像を再構築する。  
+    25000近いサンプルでテストを行い、既存手法と比べより自然な補間に  
+    成功し、ホールの形状や大きさに対しロバストである。  
+    ただし、他手法と同様にスパースな画像は難しい。
 
 * [SRDA: Generating Instance Segmentation Annotation Via Scanning, Reasoning And Domain Adaption](http://openaccess.thecvf.com/content_ECCV_2018/html/Wenqiang_Xu_SRDA_Generating_Instance_ECCV_2018_paper.html)
     * 3DスキャンやGANベースのドメインアダプテーションを組み合わせることによって，少ないサンプルからインスタンスセグメンテーションの学習データを生成する．
@@ -1852,11 +1836,11 @@ state-of-the-artと比べ精度や計算コストの点で有利。実装も楽�
 
 * [MultiPoseNet: Fast Multi-Person Pose Estimation using Pose Residual Network](http://openaccess.thecvf.com/content_ECCV_2018/html/Muhammed_Kocabas_MultiPoseNet_Fast_Multi-Person_ECCV_2018_paper.html)
     * マルチタスク学習による複数人の姿勢推定を行うアーキテクチャ  
-MultiPoseNetを提案。  
-ResNetによって抽出された特徴マップを人物検出とキーポイント推定を  
-行うサブネットに入力。これら二つのサブネットの出力を彼らが提案する  
-Pose Residual Network(PRN)に入力し姿勢推定を行う。COCOを使った  
-実験を行い、ボトムアップ系の姿勢推定手法でstate-of-the-artを達成。
+    MultiPoseNetを提案。  
+    ResNetによって抽出された特徴マップを人物検出とキーポイント推定を  
+    行うサブネットに入力。これら二つのサブネットの出力を彼らが提案する  
+    Pose Residual Network(PRN)に入力し姿勢推定を行う。COCOを使った  
+    実験を行い、ボトムアップ系の姿勢推定手法でstate-of-the-artを達成。
 
 * [TS2C: Tight Box Mining with Surrounding Segmentation Context for Weakly Supervised Object Detection](http://openaccess.thecvf.com/content_ECCV_2018/html/Yunchao_Wei_TS2C_Tight_Box_ECCV_2018_paper.html)
     * 物体周辺のセグメンテーションコンテキスト情報を使いった弱教師付き学習の物体検出手法．MILベースの手法において，例えば動物全体のボックスだけでなく，顔部分のボックスも信頼度が上がってしまう問題を解決する．つまり，物体候補をしっかり選別する試み．
@@ -1866,17 +1850,17 @@ Pose Residual Network(PRN)に入力し姿勢推定を行う。COCOを使った
 
 * [Efficient Global Point Cloud Registration by Matching Rotation Invariant Features Through Translation Search](http://openaccess.thecvf.com/content_ECCV_2018/html/Yinlong_Liu_Efficient_Global_Point_ECCV_2018_paper.html)
     * BnBベースの点群レジストレーションを提案。並進と回転の自由度を分離  
-して最適化を行う点で従来手法と異なる。高速BnBによって並進パラメー  
-タを最適化し、これを用いて回転パラメータを計算する。このとき、新し  
-く提案された回転不変特徴量を用いる。速度と精度の両方でstate-of-  
-the-artを達成。
+    して最適化を行う点で従来手法と異なる。高速BnBによって並進パラメー  
+    タを最適化し、これを用いて回転パラメータを計算する。このとき、新し  
+    く提案された回転不変特徴量を用いる。速度と精度の両方でstate-of-  
+    the-artを達成。
 
 * [Large Scale Urban Scene Modeling from MVS Meshes](http://openaccess.thecvf.com/content_ECCV_2018/html/Lingjie_Zhu_Large_Scale_Urban_ECCV_2018_paper.html)
     * ラージスケールな都市景観のためのモデリング。セグメンテーションと  
-建築モデリングの２ステップから成る。ビジュアルとジオメトリの特徴  
-を融合し、MRF形式でセグメンテーションする。建築モデリングでは3D  
-モデリングを2Dラベリング問題に変換する。state-of-the-artと比べて、  
-ロバストで高速。
+    建築モデリングの２ステップから成る。ビジュアルとジオメトリの特徴  
+    を融合し、MRF形式でセグメンテーションする。建築モデリングでは3D  
+    モデリングを2Dラベリング問題に変換する。state-of-the-artと比べて、  
+    ロバストで高速。
 
 * [Sub-GAN: An Unsupervised Generative Model via Subspaces](http://openaccess.thecvf.com/content_ECCV_2018/html/Jie_Liang_Sub-GAN_An_Unsupervised_ECCV_2018_paper.html)
     * 画像やビデオなどの複雑なデータにおいて，高次元空間の分布を活用したGANモデルは困難．そこで，逐次的にどのように生成モデルの学習を行うか決定する，部分空間ベースのsub-GANの提案．
@@ -1922,38 +1906,38 @@ the-artを達成。
 
 * [Deep Multi-Task Learning to Recognise Subtle Facial Expressions of Mental States](http://openaccess.thecvf.com/content_ECCV_2018/html/Guosheng_Hu_Deep_Multi-Task_Learning_ECCV_2018_paper.html)
     * マルチタスク学習による表情認識。CNNのどのレイヤを共有するかなど、  
-ネットワークを設計するときの経験的知識を減らす手法の提案。
+    ネットワークを設計するときの経験的知識を減らす手法の提案。
 
 * [Where Will They Go? Predicting Fine-Grained Adversarial Multi-Agent Motion using Conditional Variational Autoencoders](http://openaccess.thecvf.com/content_ECCV_2018/html/Panna_Felsen_Where_Will_They_ECCV_2018_paper.html)
     * 複数エージェントのトラッキング手法としてCVAEを提案。エージェントの  
-敵対性と利用可能なデータ量を考慮してバスケットボールの試合動画を  
-データセットとし、既存手法と比べ3倍の性能を確認。
+    敵対性と利用可能なデータ量を考慮してバスケットボールの試合動画を  
+    データセットとし、既存手法と比べ3倍の性能を確認。
 
 * [Video Summarization Using Fully Convolutional Sequence Networks](http://openaccess.thecvf.com/content_ECCV_2018/html/Mrigank_Rochan_Video_Summarization_Using_ECCV_2018_paper.html)
     * 入力次元の一般化によってセマンティックセグメンテーションとビデオサ  
-マリーの共通項を見出だした。時間軸に対しセマンティックな領域を抽出  
-することでビデオサマリーを可能にする。リカレントなモデルと比べGPU  
-の恩恵をフルに受けられる。性能は同じくらい。
+    マリーの共通項を見出だした。時間軸に対しセマンティックな領域を抽出  
+    することでビデオサマリーを可能にする。リカレントなモデルと比べGPU  
+    の恩恵をフルに受けられる。性能は同じくらい。
 
 * [ConceptMask: Large-Scale Segmentation from Semantic Concepts](http://openaccess.thecvf.com/content_ECCV_2018/html/Yufei_Wang_ConceptMask_Large-Scale_Segmentation_ECCV_2018_paper.html)
     * Large-Scaleなセマンティックセグメンテーションを難しくするラベル  
-の曖昧さを克服するために、異なるレベルのコンセプト（人なのか顔なの  
-かなど）を考慮した画像分割問題としてタスクを定式化。多数のコンセプ  
-トが存在する場合でも正確なセグメンテーションを生成できるか実験。
+    の曖昧さを克服するために、異なるレベルのコンセプト（人なのか顔なの  
+    かなど）を考慮した画像分割問題としてタスクを定式化。多数のコンセプ  
+    トが存在する場合でも正確なセグメンテーションを生成できるか実験。
 
 * [Conditional Image-Text Embedding Networks](http://openaccess.thecvf.com/content_ECCV_2018/html/Bryan_Plummer_Conditional_Image-Text_Embedding_ECCV_2018_paper.html)
     * この論文では、画像内のテキストを学習するのに単一のエンドツーエンドモデルで複数のテキスト条件付き埋め込みを 学習するアプローチをしている。
 
 * [Geolocation Estimation of Photos using a Hierarchical Model and Scene Classification](http://openaccess.thecvf.com/content_ECCV_2018/html/Eric_Muller-Budack_Geolocation_Estimation_of_ECCV_2018_paper.html)
     * 地球スケールの位置推定を行うDNNベースの手法を提案。地球を地理的な  
-セルに分割し位置推定を分類問題と考える。さらにシーンの情報も利用す  
-る。地理的なセルを分類するタスクとシーン認識のタスクをマルチタスク  
-に扱うことでstate-of-the-artを達成。
+    セルに分割し位置推定を分類問題と考える。さらにシーンの情報も利用す  
+    る。地理的なセルを分類するタスクとシーン認識のタスクをマルチタスク  
+    に扱うことでstate-of-the-artを達成。
 
 * [Learning Deep Representations with Probabilistic Knowledge Transfer](http://openaccess.thecvf.com/content_ECCV_2018/html/Nikolaos_Passalis_Learning_Deep_Representations_ECCV_2018_paper.html)
     * 既存のナレッジトランスファーは分類タスクごとに調整され、他のタスク  
-に対して効果的でないが、特徴空間内のデータの確率分布をマッチさせる  
-確率的ナレッジトランスファーによって既存手法の限界を克服した。
+    に対して効果的でないが、特徴空間内のデータの確率分布をマッチさせる  
+    確率的ナレッジトランスファーによって既存手法の限界を克服した。
 
 * [A Trilateral Weighted Sparse Coding Scheme for Real-World Image Denoising](http://openaccess.thecvf.com/content_ECCV_2018/html/XU_JUN_A_Trilateral_Weighted_ECCV_2018_paper.html)
     * RGB同時スパースコーディングによるデノイズの提案．ガウスノイズでは表現できない実際のCCDやCMOSセンサのノイズ表現能力があると主張．3分強できれいになる．毛のような元の高周波パターンもそこそこ維持している．
@@ -2057,7 +2041,7 @@ the-artを達成。
 
 * [Image Super-Resolution Using Very Deep Residual Channel Attention Networks](http://openaccess.thecvf.com/content_ECCV_2018/html/Yulun_Zhang_Image_Super-Resolution_Using_ECCV_2018_paper.html)
     * 超解像のためにCNNの層の数を増やすための手法を提案した。  
-Residual in Residualという構造を導入し、skip connectionを近い層同士だけでなく離れた層同士にも導入した。
+    Residual in Residualという構造を導入し、skip connectionを近い層同士だけでなく離れた層同士にも導入した。
 
 * [Urban Zoning Using Higher-Order Markov Random Fields on Multi-View Imagery Data](http://openaccess.thecvf.com/content_ECCV_2018/html/Tian_Feng_Urban_Zoning_Using_ECCV_2018_paper.html)
     * street view＋衛星写真から、都市内のエリアの識別を行う。具体的には、衛星写真中の各ピクセルにresidental, commercial, industrial, othersの4つのラベルを割り振る。
@@ -2204,8 +2188,7 @@ Residual in Residualという構造を導入し、skip connectionを近い層同
     * マルチコードブック量子化(MCQ)の分野の最近の研究や手法では，異なるデータセットやプロトコル，計算手法を用いるため，互いに比較するのは難しい．ここで，まずMCQベースラインのシリーズを同等の基準でベンチマークし，それらのrecall-vs-runtimeパフォーマンスの分析を行う．ローカルサーチ量子化(LSQ)は，実際には競合他社よりもはるかに高速だが，すべてのケースにおいて正確な方法ではない．そこで，LSQをより正確に，より速くレンダリングする2つの改良点を紹介する．これらの改善は容易であり，MCQの新しい最先端技術を定義する．
 
 * [Multimodal Dual Attention Memory for Video Story Question Answering](http://openaccess.thecvf.com/content_ECCV_2018/html/Kyungmin_Kim_Multimodal_Dual_Attention_ECCV_2018_paper.html)
-    *   
-
+    * 
 
 * [Hierarchical Bilinear Pooling for Fine-Grained Visual Recognition](http://openaccess.thecvf.com/content_ECCV_2018/html/Chaojian_Yu_Hierarchical_Bilinear_Pooling_ECCV_2018_paper.html)
     * 詳細画像認識は，様々なセマンティックパーツのモデリングと細かいフィーチャラーニングに大きく依存しているため困難．提案手法では第一に，レイヤ間の部分的な特徴の関係を補足するために，クロスレイヤの双線バイリニアプール法が提案され，これは他の双線近似手法と比較して優れた性能をもたらす．次に複数のクロスレイヤバイリニアフィーチャを統合して表現能力を高めるための階層的なバイリニアプーリングフレームワークを提案する．この提案手法は，広く使われている認識データセットで最高水準の結果を達成．
